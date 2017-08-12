@@ -50,7 +50,7 @@ echo "<!DOCTYPE html>
              url = \""$varurl"/logme/\" + coords;
             httpGet(url);
             console.log('should be working');
-            setTimeout(autoUpdate, 1000);
+            setTimeout(autoUpdate, 2000);
         })
         };
         \$(document).ready(function(){
